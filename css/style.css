@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: rgb(144, 236, 236);
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: rgb(190, 171, 164);
+}
+header {
+    background-image: url(../img/images.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+footer {
+    background-color: rgb(112, 185, 28);
+    color: rgb(216, 213, 247);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+#content {
+    width: 80%;
+    float: right;
+    background-color: blue;
+    
+}
+
+#home {
+    background-color: rgb(142, 247, 221);
+    padding: 90px, 0;
+}
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: rgb(151, 252, 57);
+   font-weight: bold;
+   padding: 18px 0;
+   border-radius: 20px;
+   border: solid 2px rgb(144, 136, 235);
+}
+nav ul li:hover {
+    color:  rgb(9, 160, 110);
+    background-color: rgba(9, 126, 204, 0.356);
+}
+table.taglas {
+    background-color: antiquewhite;
+    color: brown;
+
+}
+.txt-center{
+    text-align: center;
+}
+#formhtml5 form{
+    width: 0;
+}
+#textRango{
+    
+}
+
