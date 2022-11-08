@@ -1,3 +1,6 @@
+´¨{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     background-color: rgb(144, 236, 236);
@@ -7,19 +10,22 @@ a {
     text-decoration: none;
 }
 .container {
-    width: 100%;
-    height: 50%;
+    width: 90%;
     margin: 0 auto;
     background-color: rgb(190, 171, 164);
 }
+#principal {
+    
+    display: flex;
+}
 header {
-    background-image: url(../img/images.png);
+    background-image: url(../img/headerHtml.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
 }
 footer {
-    background-color: rgb(112, 185, 28);
+    background-color: rgb(247, 250, 208);
     color: rgb(216, 213, 247);
     text-align: center;
     font-size: 26px;
@@ -37,13 +43,18 @@ nav {
 #content {
     width: 80%;
     float: right;
-    background-color: blue;
+    background-color: rgb(182, 182, 238);
+    flex: 1;
+    display: flex;
+    
     
 }
 
 #home {
-    background-color: rgb(142, 247, 221);
-    padding: 90px, 0;
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgba(240, 221, 113, 0.993);
 }
 .cb {
     clear: both;
@@ -55,19 +66,24 @@ nav ul {
 }
 nav ul li {
    text-align: center;
-   color: rgb(151, 252, 57);
+   color: rgb(141, 201, 216);
    font-weight: bold;
    padding: 18px 0;
    border-radius: 20px;
    border: solid 2px rgb(144, 136, 235);
 }
 nav ul li:hover {
-    color:  rgb(9, 160, 110);
-    background-color: rgba(9, 126, 204, 0.356);
+    color:  rgb(98, 206, 170);
+    background-color: rgba(59, 72, 82, 0.356);
+    
 }
+.tag {
+    color: rgb(111, 228, 146);
+    font-size: 30px;
+    font-weight: bold;}
 table.taglas {
     background-color: antiquewhite;
-    color: brown;
+    color: rgb(216, 112, 112);
 
 }
 .txt-center{
@@ -76,7 +92,88 @@ table.taglas {
 #formhtml5 form{
     width: 0;
 }
-#textRango{
-    
+
+
+table.tagla {
+    background-color: rgb(157, 60, 223);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+table.feo {
+    background-color: rgb(2, 2, 84);
+    color: aquamarine;
+    font-size: 24px;
+}
+table.striped {
+    background-color: rgb(205, 241, 74);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.PROG {
+    background-color: rgb(36, 196, 108);
+}
+.BDD {
+    background-color: aqua;
+}
+.SISI {
+    background-color: yellow;
+}
+.ING {
+    background-color: rgb(37, 54, 1);
+}
+.ENDE {
+    background-color: brown;
+}
+.LMSG {
+    background-color: green;
+}
+.FOL {
+    background-color: red;
+}
+.LUN {
+    color: rgb(106, 106, 243);
+}
+.MAR {
+    color: rgb(106, 106, 243);
+}
+.MIER {
+    color: rgb(106, 106, 243);
+}
+.JUE {
+    color: rgb(106, 106, 243);
+}
+.VIE {
+    color: rgb(106, 106, 243);
+}
+.COSO {
+    color: rgb(106, 106, 243);
+}
+.RECREO {
+    text-align: center;
+    color: rgb(106, 106, 243);
+}
+.OCHO {
+    color: rgb(106, 106, 243);
+}
+.NUEVE {
+    color: rgb(106, 106, 243);
+}
+.DIEZ {
+    color: rgb(106, 106, 243);
+}
+.ONCE {
+    color: rgb(106, 106, 243);
+}
+.DOCE {
+    color: rgb(106, 106, 243);
+}
+.TRECE {
+    color: rgb(106, 106, 243);
+}
+.clase {
+    text-align: center;
+}
+.S1DAM {
+    color: rgb(106, 106, 243);
 }
 
